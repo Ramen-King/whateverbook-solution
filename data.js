@@ -35,35 +35,3 @@ const headInstructors = [
         ]
     }
 ];
-
-// {
-//     firstName: 'Quentin',
-//     lastName: 'Coldwater',
-//     age: 17,
-//     issues: [
-//         'self-esteem',
-//         'narcissism',
-//         'escapism',
-//         'depression'
-//     ],
-//     abilities: [
-//         'singing badly',
-//         'hyperfocusing',
-//         'devotion',
-//         'knowledge of Fillory'
-//     ]
-// },
-// {
-//     firstName: 'Julia',
-//     lastName: 'Wicker',
-//     age: 17,
-//     issues: [
-//         'self-blame',
-//         'trauma',
-//         'consumed by revenge'
-//     ],
-//     abilities: [
-//         'self-taught magician',
-//         ''
-//     ]
-// }
