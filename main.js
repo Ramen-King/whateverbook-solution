@@ -45,8 +45,12 @@ function display(instructor) {
     term.innerText = `Term: ${instructor.term}`;
     instructorData.appendChild(term);
 
+    const position = document.createElement('li');
+    position.innerText = `Position: ${instructor.position}`;
+    instructorData.appendChild(position);
+
     const usesLinux = document.createElement('li');
-    usesLinux.innerText = `Uses Linux: ${instructor.usesLinux ? 'Yes' : 'No'}`;
+    usesLinux.innerText = `Uses Linux: ${instructor.usesLinux ? 'yes' : 'should'}`;
     instructorData.appendChild(usesLinux);
 
     instructorsUl.appendChild(instructorLi);
