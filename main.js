@@ -11,9 +11,8 @@ function displayAll(event) {
     event.preventDefault();
 
     emptyList();
-
-    for(let i = 0; i < headInstructors.length; i++) {
-        display(headInstructors[i]);
+    for(let i = 0; i < instructors.length; i++) {
+        display(instructors[i]);
     }
     
 }
@@ -22,9 +21,8 @@ function search(event) {
     event.preventDefault();
 
     const userInput = document.querySelector('#search-input').value;
-
-    for(let i = 0; i < headInstructors.length; i++) {
-        const instructor = headInstructors[i];
+    for(let i = 0; i < instructors.length; i++) {
+        const instructor = instructors[i];
         if (userInput.toLowerCase() === instructor.lastName.toLowerCase()) {
             emptyList();
             display(instructor);
