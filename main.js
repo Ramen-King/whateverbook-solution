@@ -36,6 +36,7 @@ function display(instructor) {
     const instructorLi = document.createElement('li');
     const instructorData = document.createElement('ul');
     instructorLi.appendChild(instructorData);
+    instructorsUl.appendChild(instructorLi);
 
     const name = document.createElement('li');
     name.innerText = `Name: ${instructor.firstName} ${instructor.lastName}`;
@@ -50,7 +51,7 @@ function display(instructor) {
     instructorData.appendChild(position);
 
     const usesLinux = document.createElement('li');
-    usesLinux.innerText = `Uses Linux: ${instructor.usesLinux ? 'yes' : 'should'}`;
+    usesLinux.innerText = `Wastes Time On Linux: ${instructor.usesLinux ? 'Yes' : 'No'}`;
     instructorData.appendChild(usesLinux);
 
     instructorsUl.appendChild(instructorLi);
